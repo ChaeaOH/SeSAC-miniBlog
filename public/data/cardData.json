@@ -1,0 +1,61 @@
+[
+    {
+        "id":"1",
+        "imgUrl":"https://loremflickr.com/320/240/paris",
+        "imgAlt":"Kevin Kruse",
+        "title": "Paris",
+        "content":"Life isn’t about getting and having, it’s about giving and being",
+        "dataLink":"#",
+        "checkName":"card_01"
+
+    },
+    {
+        "id":"2",
+        "imgUrl":"https://loremflickr.com/320/240/london",
+        "imgAlt":"Napoleon Hill",
+        "title":"London",
+        "content":"Whatever the mind of man can conceive and believe, it can achieve",
+        "dataLink":"#",
+        "checkName":"card_02"
+
+    },
+    {
+        "id":"3",
+        "imgUrl":"https://loremflickr.com/320/240/Croatia",
+        "imgAlt":"Albert Einstein",
+        "title":"Croatia",
+        "content":"Whatever the mind of man can conceive and believe, it can achieve",
+        "dataLink":"#",
+        "checkName":"card_03"
+    },
+    {
+        "id":"4",
+        "imgUrl":"https://loremflickr.com/320/240/swiss",
+        "imgAlt": "Women Sweaters Wool",
+        "title":"Swiss",
+        "content":"Strive not to be a success, but rather to be of value.",
+        "dataLink":"#",
+        "checkName":"card_04"
+
+    },
+    {
+        "id":"5",
+        "imgUrl":"https://loremflickr.com/320/240/Australia",
+        "imgAlt":"Infinix INBOOK",
+        "title":"Australia",
+        "content":"You miss 100% of the shots you don’t take.",
+        "dataLink":"#",
+        "checkName":"card_05"
+
+    },
+    {
+        "id":"6",
+        "imgUrl":"https://loremflickr.com/320/240/usa",
+        "imgAlt":"Black Motorbike",
+        "title":"USA",
+        "content":"I attribute my success to this: I never gave or took any excuse.",
+        "dataLink":"#",
+        "checkName":"card_06"
+
+    }
+]
