@@ -17,21 +17,6 @@ const CardList = () => {
         })();
       }, []);
 
-
-   /*  useEffect(()=>{
-        axios('./data/cardData.json')
-        .then(response=>response.data)
-        .then(data=>setCardData(data))
-        .catch(error=>{console.log(error)})
-    },[])
- */
-    
- /*    useEffect(()=>{
-        fetch('http://localhost:3000/data/cardData.json')
-        .then(response=>response.json())
-        .then(data=>setCardData(data))
-        .catch(error=>{console.log(error)})
-    },[]) */
     
     return (
         <div className='card_area'>
