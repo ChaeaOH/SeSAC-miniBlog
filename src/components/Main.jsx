@@ -49,10 +49,6 @@ const Main = () => {
         checkRef.current = 'next' ;     
     }
 
- //  넥스트 버튼을클릭하면  fncNextSlid 호출 
- //  num => +1   check=next 
- // useEffect 을 사용해서 num 변화를 감지해서, 체크상태 감지 next 가 들어가 있으면 
- //fncNextStyle 함수를 호출해서 ul fncNextStyle 안의 스타일을 적용한다. 
     useEffect(()=>{
         (checkRef.current === 'next') ? fncNextStyle() : fncPrevStyle () ;
     },[num])
