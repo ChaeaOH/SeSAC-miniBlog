@@ -7,9 +7,7 @@ const Main = () => {
     const [num,setNum] = useState(0);  
     const [check,setCheck] = useState('next');
     const checkRef = useRef('next')
-    //console.log(checkRef)  {current:'next'} 객체 타입으로 값을 저장하고 사용 할 수 있다. 컴포넌트함수를 재 랜더링 하는 기능은 없다
-
-    //listData.unshift('more1')
+ 
     listData.unshift(listData[listData.length-1])
     const fncClassAdd = (i) =>{
         const on=(i===num)?' on':' on' ; 
@@ -84,25 +82,6 @@ const Main = () => {
 
 export default Main;
 
-/* 
-const list = [1,2,3,4,5,a,b]
-const list2 = list 
-const list2 = [...list]
-const obj = {a:1,b:2,c:3}
-//const obj2=obj   참조만 맞춘것 
-const obj2 ={...obj,c:4,b:1,e:8}
-console.log(obj , obj2)
-
-useState  값이 바뀌면 해당하는 변수에 값을 재할당하기(업데이트) 컴포넌트를 다시 랜더링 한다. 
-
-useRef는 값이 바뀌더라도 리랜더 되지 않는다. 
-
-const box = { a : 0} 
-box.a = 10 
-
-const useState [box , setBox] = useState(0)
-setBox(10) 
-*/
 
 
 
